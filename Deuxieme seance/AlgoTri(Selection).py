@@ -11,7 +11,7 @@ def selection_sort(tab):
     return tab
 
 # Exemple d’utilisation
-liste = [64, 25, 12, 22, 11]
+liste = [23, 6, 5, 2, 4]
 print("Avant tri :", liste)
 print("Après tri :", selection_sort(liste))
 
