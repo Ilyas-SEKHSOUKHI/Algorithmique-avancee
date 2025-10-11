@@ -1,3 +1,5 @@
+#Deuxieme type de tri
+print("--------------Tri Par Insertion--------------")
 def tri_insertion(tab):                     # Définition de la fonction tri_insertion qui prend une liste 'tab'
     for i in range(1, len(tab)):            # On parcourt la liste à partir du 2e élément (index 1)
         element = tab[i]                    # On garde l'élément courant à insérer dans la partie triée
