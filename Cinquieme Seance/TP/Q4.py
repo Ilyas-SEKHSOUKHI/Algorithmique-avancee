@@ -1,3 +1,4 @@
+#Fonctions récursives 
 def est_equilibre(expr):
     if expr == "":
         return True  # chaîne vide = équilibrée

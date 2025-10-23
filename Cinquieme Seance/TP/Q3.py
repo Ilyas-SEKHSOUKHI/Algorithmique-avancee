@@ -1,3 +1,4 @@
+#Fonctions récursives 
 def aplatir(L):
     AP=[]
     for l in L:
