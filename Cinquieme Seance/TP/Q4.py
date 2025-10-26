@@ -1,4 +1,3 @@
-#Fonctions récursives 
 def est_equilibre(expr):
     if expr == "":
         return True  # chaîne vide = équilibrée
@@ -15,3 +14,7 @@ def est_equilibre(expr):
             return False
 
     return True
+
+expr = "()[][]"
+print(est_equilibre(expr))
+
